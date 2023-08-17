@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    margin-top: 25px;
+
+    height: 34px;
+    /* background-color: rgb(112, 247, 247); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: var(--font1);
+
+}
+
+.nav-left {
+    font-size: 20px;
+    display: flex;
+
+
+}
+.content-left   p{
+    color:white
+}
+
+
+.nav-left span h1 {
+    font-size: 30px;
+    /* color: white; */
+
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 74px;
+    font-size: 22px;
+    font-weight: 500px;
+}
+
+.nav-left ul li {
+    color: blue;
+    list-style: none;
+    margin: 0 14px;
+    font-size: bold;
+    font-family: var(--font2);
+}
+
+
+
+
+
+
+
+
+
+
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-left ul li a:hover {
+    color: rgb(5, 155, 33);
+    /* background-color: aquamarine; */
+}
+
+.content {
+    height: 400px;
+    width: auto;
+    /* background-color: rgb(109, 109, 167); */
+    display: flex;
+    margin-top: 32px;
+    /* margin-bottom: 30px; */
+    /* transition: ease-in-out 3s; */
+    padding: 9px;
+    background-image: url("https://media.istockphoto.com/id/1364859722/photo/artificial-intelligence-concept.jpg?s=1024x1024&w=is&k=20&c=s2vD05u3Dnm9ys7PeCe6gSshiECwKSfCti8-jIxnRFQ=");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    /* opacity: 0.2px; */
+
+}
+
+.content::after {
+    content: "";
+    position: absolute;
+
+}
+
+.content-left {
+    font-family: var(--font1);
+    display: flex;
+    flex-direction: column;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+
+}
+
+.home-article-right {}
+
+.home-article-content {
+    /*  here */
+    align-self: center;
+    height: 350px;
+    /* margin: 0;
+     */
+    padding: 15px;
+}
+
+.home-article {
+    /*   here */
+    align-self: center;
+    height: 350px;
+    /* margin: 0;
+    padding-top: -20px;  */
+
+
+
+}
+
+.content-right img {
+    height: 355px;
+    width: 355px;
+    border: 2px solid black;
+    border-radius: 200px;
+}
+
+.home-articles {
+    height: 455px;
+    /* background-color: rgb(238, 240, 241); */
+
+}
+
+.home-articles {
+    display: flex;
+
+}
+
+
+/* .home-article-left1 p{
+    flex-direction: column;
+    text-align: left;
+}
+.home-article-right{
+    display: flex;
+    align-items: center;
+
+    
+}
+ */
+
+
+
+
+.footer {
+    height: 50px;
+    /* background-color:rgb(108, 44, 160); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(10, 125, 125);
+    flex-direction: column;
+    margin: auto;
+
+
+}
+
+.footer a {
+    color: rgb(46, 55, 111);
+    
+}
